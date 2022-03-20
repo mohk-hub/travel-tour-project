@@ -1,0 +1,573 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Fira+Sans&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Fira Sans', sans-serif;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+ul, li {
+	list-style-type: none;
+}
+
+/* header section */
+ img {
+	max-width: 100%;
+	height: auto;
+}
+
+.container {
+	width: 960px;
+	max-width: 100%;
+	padding: 20px;
+	margin: 0 auto;
+}
+
+.main-header {
+    background-color: rgba(107, 27, 27, 0.788);
+}
+
+.main-header .container {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.main-header .container img {
+    border-radius: 50%;
+}
+
+.main-nav ul {
+	margin: 1em 0 .5em;
+	text-align: center;
+}
+.main-nav li {
+	display: inline;
+	transition: all 0.2s ease;
+}
+.main-nav a {
+	display: inline-block;
+	padding: .5em 1.5em;
+    color: snow;
+}
+
+.main-nav li:hover {
+	background-color: rgba(107, 27, 27, 0.363);
+	padding: 40px 0px;
+}
+
+/* header section */
+
+/* image section */
+.main-page-img-1 {
+	background-image: url("../images/img2.jpg");
+	padding: 25rem 0;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	margin-top: -6px;
+	position: relative;
+}	
+
+.main-page-img-1 h1 {
+	font-size: 5.5rem;
+	left: 550px;
+	color: snow;
+	position: absolute;
+	text-shadow: 2px 4px 10px black;
+	font-family: 'Bad Script', cursive;
+}
+/* image section */
+
+/* headings section */
+.headings-section {
+	margin-top: 15px;
+}
+
+.headings-section h1, p {
+	text-align: center;
+	color: rgb(94, 80, 3);
+	line-height: 30px;
+	text-transform: uppercase;
+}
+/* main section */
+
+.button-wrap {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.wrap li {
+	display: inline;
+}
+
+.wrap button {
+	padding: 15px 35px;
+	margin: 0 5px;
+	margin-top: 10px;
+	border: none;
+	background-color: rgba(94, 80, 3, 0.733);
+	border-radius: 5px;
+	font-size: 1.2rem;
+	color: snow;
+	transition: all 0.2s ease-in
+}
+
+.wrap button a {
+	color: snow;
+}
+
+.wrap button:hover {
+	background-color: rgb(94, 80, 3);
+}
+
+.wrap img {
+	margin-top: 20px;
+	margin-left: 10px;
+	box-shadow: 2px 4px 10px black;
+	transform: scale(1) translate(-0%, -0%);
+	transition: all 0.2s ease;
+}
+
+.wrap img:hover {
+	transform: scale(1.05) translate(-0%, -0%);
+}
+
+.img-wrapper {
+	background-image: url("../images/img12.jpg");
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.img-wrapper .background-transparent {
+	padding: 5rem 0;
+	background-color: rgba(0, 0, 0, 0.603);
+}
+
+.button-wrap .wrap-content p{
+	color: snow;
+	display: inline;
+	margin: 0 85px;
+	font-weight: bold;
+	line-height: 40px;
+}
+
+/* main section */
+
+/* footer section */
+.main-footer {
+	padding: 20px 0;
+	background-color: rgba(107, 27, 27, 0.788);
+}
+
+.main-footer p {
+	color: snow;
+	font-weight: bold;
+}
+
+.main-footer input {
+	padding: 15px 50px;
+	border-radius: 5px;
+	border: none;
+}
+
+.main-footer button {
+	padding: 15px 115px;
+	margin-top: 10px;
+	border-radius: 5px;
+	border: none;
+}
+
+.wrap i {
+	color: snow;
+	font-size: 20px;
+	margin: 10px 10px;
+	margin-left: 150px;
+}
+/* footer section */
+
+/* travel tips section */
+
+.button-wrap .tip-content img {
+	display: inline;
+	border-radius: 10px;
+	transform: none;
+	box-shadow: none;
+	margin: 0 35px;
+}
+
+.button-wrap .tip-content p {
+	display: inline;
+	margin: 0px 45px;
+}
+
+/* travel tips section */
+
+/* place to go section */
+.live-page-img {
+	background-image: url("../images/img28.jpg");
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	margin-top: -6px;
+}
+
+.live-page-img .live-background-transparent {
+	padding: 18rem 0;
+	background-color: rgba(0, 0, 0, 0.349);
+}
+
+.live-page-img h1 {
+	font-family: 'Bad Script', cursive;
+	font-size: 8rem;
+	color: snow;
+	text-shadow: 2px 4px 10px black;
+	text-align: center;
+}
+
+.grey-back-transparent {
+	background-color: rgba(128, 128, 128, 0.288);
+}
+
+.headings-section.top {
+	margin-top: 0;
+	padding: 10px 0;
+}
+
+.button-wrap .img-space img {
+	margin: 10px 5px;
+}
+
+.live-page-img2 {
+	background-image: url("../images/img29.jpg");
+	background-position: center;
+	background-size: cover;
+	padding: 15rem 0;	
+}
+
+.live-page-img2 p {
+	background-color: rgba(0, 0, 0, 0.521);
+	color: snow;
+	margin: 0 30rem;
+	padding: 20px;
+	letter-spacing: 2px;
+}
+
+.live-page-img2 .lower-letter {
+	text-transform: capitalize;
+	letter-spacing: 0;
+}
+
+.button-wrap img.set-img1 {
+	transition: none;
+	transform: none;
+	box-shadow: none;
+}
+
+.button-wrap img.set-img2 {
+	position: relative;
+	top: -200px;
+	left: 110px;
+	transition: none;
+	transform: none;
+	box-shadow: none;
+	border-radius: 50%;
+}
+
+.button-wrap p.para {
+	position: relative;
+	left: 0px;
+	top: -215px;
+	padding: 33px 0;
+	background-color: snow;
+	font-weight: bold;
+	margin: 0 5px;
+}
+/* place to go section */
+
+/* thing to do section */
+.thing-page-img {
+	background-image: url("../images/img37.jpg");
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	margin-top: -6px;
+}
+
+.thing-page-img .live-background-transparent {
+	padding: 18rem 0;
+	background-color: rgba(0, 0, 0, 0.349);
+}
+
+.thing-page-img .live-background-transparent h1 {
+	font-family: 'Bad Script', cursive;
+	font-size: 8rem;
+	color: snow;
+	text-shadow: 2px 4px 10px black;
+	text-align: center;
+}
+
+
+.button-wrap .thing-img img {
+	transition: none;
+	transform: none;
+	box-shadow: none;
+	margin: 10px 20px;
+}
+
+.button-wrap .thing-img p {
+	display: inline;
+	margin: 0 57px;
+	text-align: center;
+}
+
+.middle-img img {
+	width: 100%;
+	height: 100%;
+	background-position: center;
+	background-size: cover;
+}
+
+.button-wrap .food-img img {
+	margin: 0 11px;
+	transition: none;
+	transform: none;
+	box-shadow: none;
+}
+
+.button-wrap .thing-para p {
+	display: inline;
+	background-color: rgba(0, 0, 0, 0.685);
+	color: snow;
+	padding: 20px 4px;
+	margin: 0 10px;
+	font-size: 17px;
+}
+
+.button-wrap p.para1 {
+	position: relative;
+	top: -150px;
+	left: -20px;
+}
+
+.button-wrap p.para2 {
+	position: relative;
+	top: -110px;
+	left: 15px;
+}
+
+.button-wrap p.para3 {
+	position: relative;
+	top: -160px;
+	left: 30px;
+	padding: 20px 4px;
+	font-size: 13px;
+}
+
+.button-wrap p.para4 {
+	position: relative;
+	top: -160px;
+	left: -152px;
+	padding: 20px 4px;
+	font-size: 13px;
+}
+
+.button-wrap p.para5 {
+	position: relative;
+	top: -160px;
+	left: -90px;
+	padding: 20px 4px;
+	font-size: 13px;
+}
+
+.button-wrap p.para6 {
+	position: relative;
+	top: -160px;
+	left: 60px;
+	padding: 20px 4px;
+	font-size: 13px;
+}
+
+.button-wrap p.para7 {
+	position: relative;
+	top: -160px;
+	left: -125px;
+	padding: 20px 4px;
+	font-size: 13px;
+}
+
+.button-wrap p.para8 {
+	position: relative;
+	top: -160px;
+	left: 40px;
+	padding: 20px 4px;
+	font-size: 13px;
+}
+
+.button-wrap p.para9 {
+	position: relative;
+	top: -160px;
+	left: 150px;
+	padding: 20px 4px;
+	font-size: 13px;
+}
+
+
+.button-view button {
+	background-color: rgba(94, 80, 3, 0.733);
+	padding: 15px 25px;
+	border: none;
+	color: snow;
+	border-radius: 5px;
+	margin-left: 400px;
+}
+
+.button-view a {
+	color: snow;
+}
+
+.booking-form input {
+	width: 100%;
+	padding: 20px 50px;
+	margin: 0px auto;
+	margin-top: 30px;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+}
+
+.booking-form input:focus {
+	outline: none;
+}
+
+.booking-form input::placeholder {
+	font-size: 17px;
+	font-weight: bold;
+	color: rgb(94, 80, 3);
+}
+
+.booking-form textarea {
+	width: 100%;
+	padding: 20px 50px;
+	margin: 0px auto;
+	margin-top: 30px;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+}
+
+.booking-form textarea::placeholder {
+	font-size: 17px;
+	font-weight: bold;
+}
+
+.booking-form select {
+	width: 100%;
+	padding: 20px 50px;
+	margin: 0px auto;
+	margin-top: 30px;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+}
+
+.booking-form select::placeholder {
+	font-size: 17px;
+	font-weight: bold;
+}
+
+.booking-form input.button {
+	border-bottom: none;
+}
+
+/* thing to do section */
+
+/* plan your trip */
+.plan-trip-img {
+	background-image: url("../images/img60.jpg");
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	margin-top: -6px;
+}
+
+.plan-trip-img .live-background-transparent {
+	padding: 18rem 0;
+	background-color: rgba(0, 0, 0, 0.349);
+}
+
+.plan-trip-img .live-background-transparent h1 {
+	font-family: 'Bad Script', cursive;
+	font-size: 8rem;
+	color: snow;
+	text-shadow: 2px 4px 10px black;
+	text-align: center;
+}
+
+.plan-trip-img .live-background-transparent button {
+	background-color: rgba(94, 80, 3, 0.836);
+	padding: 15px 25px;
+	border: none;
+	color: snow;
+	border-radius: 5px;
+	margin-left: 580px;
+	font-size: 20px;
+}
+
+.plan-trip-img .live-background-transparent a {
+	color: snow;
+	transition: all 0.2s ease;
+}
+
+.plan-trip-img .live-background-transparent a:hover {
+	text-shadow: 1px 1px 10px snow;
+	background-color: rgb(94, 80, 3);
+}
+
+.button-wrap .img-space .para1 {
+	top: -74px;
+	background-color: snow;
+	left: 5px;
+}
+
+.headings-section.space h1{
+	padding-top: 10px;
+}
+
+
+/* plan your trip */
+
+/* travel offer section  */
+.travel-offer-img {
+	background-image: url("../images/img76.jpg");
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	margin-top: -6px;
+}
+
+.travel-offer-img .live-background-transparent {
+	padding: 18rem 0;
+	background-color: rgba(0, 0, 0, 0.349);
+}
+
+.travel-offer-img  .live-background-transparent h1 {
+	font-family: 'Bad Script', cursive;
+	font-size: 8rem;
+	color: snow;
+	text-shadow: 2px 4px 10px black;
+	text-align: center;
+}
+/* travel offer section  */
